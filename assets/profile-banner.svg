@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="banner-title banner-description">
+  <title id="banner-title">Edwin Esteban Peña Fonseca, Backend Engineer and Cloud &amp; DevOps</title>
+  <desc id="banner-description">A dark navy profile banner with cyan and violet accents, connected service nodes, and Edwin Esteban Peña Fonseca's engineering focus.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="0.55" stop-color="#0B1B34"/>
+      <stop offset="1" stop-color="#111A3A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="cyan-glow" cx="0" cy="0" r="1" gradientTransform="translate(1010 50) rotate(135) scale(320)">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violet-glow" cx="0" cy="0" r="1" gradientTransform="translate(1120 330) rotate(-150) scale(380)">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#cyan-glow)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#violet-glow)"/>
+  <path d="M0 302 C210 252 378 354 590 300 S970 242 1200 292 V360 H0 Z" fill="#111E3D" fill-opacity="0.72"/>
+  <path d="M0 321 C238 268 390 367 618 315 S982 264 1200 310" fill="none" stroke="url(#accent)" stroke-opacity="0.28" stroke-width="2"/>
+
+  <g opacity="0.72" fill="none" stroke-linecap="round">
+    <path d="M905 102 L1000 65 L1090 122 L1032 208 L1120 267" stroke="#22D3EE" stroke-opacity="0.38" stroke-width="2"/>
+    <path d="M905 102 L958 190 L1032 208" stroke="#A78BFA" stroke-opacity="0.42" stroke-width="2"/>
+    <circle cx="905" cy="102" r="8" fill="#22D3EE"/>
+    <circle cx="1000" cy="65" r="7" fill="#A78BFA"/>
+    <circle cx="1090" cy="122" r="9" fill="#22D3EE"/>
+    <circle cx="958" cy="190" r="7" fill="#A78BFA"/>
+    <circle cx="1032" cy="208" r="9" fill="#22D3EE"/>
+    <circle cx="1120" cy="267" r="7" fill="#A78BFA"/>
+    <circle cx="1032" cy="208" r="20" stroke="#22D3EE" stroke-opacity="0.25" filter="url(#soft-glow)"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="72" y="56" width="244" height="38" rx="19" fill="#0C2940" stroke="#22D3EE" stroke-opacity="0.52"/>
+    <circle cx="96" cy="75" r="6" fill="#22D3EE"/>
+    <text x="112" y="82" fill="#B8F5FF" font-size="18" font-weight="600" letter-spacing="1.2">BUILDING RELIABLE SYSTEMS</text>
+
+    <text x="72" y="172" fill="#F8FAFC" font-size="58" font-weight="750" letter-spacing="-1.5">Edwin Esteban Peña Fonseca</text>
+    <rect x="72" y="197" width="650" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="72" y="254" fill="#DCE8F8" font-size="36" font-weight="600">Backend Engineer</text>
+    <circle cx="414" cy="243" r="5" fill="#22D3EE"/>
+    <text x="438" y="254" fill="#C4B5FD" font-size="36" font-weight="600">Cloud &amp; DevOps</text>
+    <text x="74" y="302" fill="#93A9C7" font-size="20" letter-spacing="0.5">APIs  •  AUTOMATION  •  CLOUD DELIVERY</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="358" rx="27" fill="none" stroke="url(#accent)" stroke-opacity="0.34" stroke-width="2"/>
+</svg>
